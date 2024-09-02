@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "986634165372",
+    "project_id": "car-rental-app-flutter-bloc",
+    "storage_bucket": "car-rental-app-flutter-bloc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986634165372:android:3d7ff7b4bbf72fac36bdf9",
+        "android_client_info": {
+          "package_name": "com.car_rental_app_flutter_bloc.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoiNedeLix-6I_GjI7el7u-aw_aQOOOzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
