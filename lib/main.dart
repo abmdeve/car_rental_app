@@ -1,5 +1,5 @@
 import 'package:car_rental_app_flutter_bloc/firebase_options.dart';
-import 'package:car_rental_app_flutter_bloc/onboarding_screen.dart';
+import 'package:car_rental_app_flutter_bloc/presentation/pages/onboarding_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 

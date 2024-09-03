@@ -83,4 +83,5 @@ class DefaultFirebaseOptions {
     authDomain: 'car-rental-app-flutter-bloc.firebaseapp.com',
     storageBucket: 'car-rental-app-flutter-bloc.appspot.com',
   );
+
 }
