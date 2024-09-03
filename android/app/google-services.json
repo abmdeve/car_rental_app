@@ -26,9 +26,47 @@
     },
     {
       "client_info": {
+        "mobilesdk_app_id": "1:986634165372:android:64c02d3b85cd418f36bdf9",
+        "android_client_info": {
+          "package_name": "com.example.car_rental_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoiNedeLix-6I_GjI7el7u-aw_aQOOOzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:986634165372:android:10313c55a543ab1d36bdf9",
         "android_client_info": {
           "package_name": "com.example.car_rental_app_flutter_bl"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoiNedeLix-6I_GjI7el7u-aw_aQOOOzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986634165372:android:ad4c5e1f4cf4d2fe36bdf9",
+        "android_client_info": {
+          "package_name": "com.example.car_rental_app_flutter_bloc"
         }
       },
       "oauth_client": [],
