@@ -1,4 +1,5 @@
 import 'package:car_rental_app_flutter_bloc/data/models/Car.dart';
+import 'package:car_rental_app_flutter_bloc/presentation/pages/card_details_screen.dart';
 import 'package:car_rental_app_flutter_bloc/presentation/widgets/car_card.dart';
 import 'package:flutter/material.dart';
 
@@ -26,7 +27,17 @@ class CarListScreen extends StatelessWidget {
       body: ListView.builder(
         itemCount: cars.length,
         itemBuilder: (context, index) {
-          return CarCard(car: cars[index]);
+          return CarCard(
+            car: cars[index],
+            onPressed: () {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => CardDetailsScreen(
+                            car: cars[index],
+                          )));
+            },
+          );
         },
       ),
     );

@@ -17,6 +17,9 @@ dependencies:
   cupertino_icons: ^1.0.8
   firebase_core:
   cloud_firestore:
+  flutter_map:
+  latlng:
+  bloc:
 
 dev_dependencies:
   flutter_test:

@@ -1,4 +1,5 @@
 import 'package:car_rental_app_flutter_bloc/presentation/pages/car_list_screen.dart';
+import 'package:car_rental_app_flutter_bloc/presentation/pages/input_test_screen.dart';
 import 'package:flutter/material.dart';
 
 class OnboardingScreen extends StatefulWidget {
@@ -12,7 +13,6 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      ///appBar: AppBar(),
       backgroundColor: const Color(0xff2C2B34),
       body: Column(
         children: [
@@ -59,11 +59,16 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                     height: 54,
                     child: ElevatedButton(
                       onPressed: () {
+                        /*Navigator.pushAndRemoveUntil(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => CarListScreen()),
+                          (route) => false,
+                        );*/
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => CarListScreen(),
-                          ),
+                              builder: (context) => const InputTestScreen()),
                         );
                       },
                       style: ElevatedButton.styleFrom(
